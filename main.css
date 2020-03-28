@@ -23,7 +23,7 @@
 }
 
 body {
-  background: url(photo.jpg) no-repeat;
+  background: url("bg.jpg") no-repeat;
   background-size: cover;
 }
 
