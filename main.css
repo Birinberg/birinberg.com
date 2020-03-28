@@ -1,4 +1,32 @@
-h1 {
+.container {
+  background-color: #9ba5b5;
+  opacity: 0.5;
   text-align: center;
-  color: rgb(68, 68, 68);
+  width: 100%;
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.ml12 {
+  font-weight: 200;
+  font-size: 1.8em;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  font-family: Lora, 'Libre Baskerville', serif;
+}
+
+.ml12 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+body {
+  background: url(photo.jpg) no-repeat;
+  background-size: cover;
+}
+
+body:hover {
+  zoom: 0.8;
 }
